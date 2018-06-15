@@ -28,13 +28,14 @@ echo $vier('Konny'); // Willkommen Konny.
 
 echo '<br>';
 
-$sechs = function($name) use ($welcome) {
+$info = 'Die Auswertung ergab: ';
+$sechs = function($name) use ($info) {
   $names = [
     'freund' => 'Konny',
     'feind' => 'Tim',
     'unbekannt' => 'John'
   ];
 
-  return $name . ' = ' . ucfirst(array_search($name, $names));
+  return $info . $name . ' = ' . ucfirst(array_search($name, $names));
 };
 echo $sechs("Konny"); // Konny = Freund
