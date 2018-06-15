@@ -38,4 +38,4 @@ $sechs = function($name) use ($info) {
 
   return $info . $name . ' = ' . ucfirst(array_search($name, $names));
 };
-echo $sechs("Konny"); // Konny = Freund
+echo $sechs("Konny"); // Die Auswerung ergab: Konny = Freund
