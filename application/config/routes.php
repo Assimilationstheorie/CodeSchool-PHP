@@ -52,5 +52,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['references'] = 'welcome/references';
 $route['referenzen'] = 'welcome/references';
+
+$route['anonymefunktionen'] = 'welcome/anonymousfunctions';
+$route['anonymousfunctions'] = 'welcome/anonymousfunctions';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

@@ -17,4 +17,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('references');
 		$this->load->view('templates/footer');
 	}
+
+	public function anonymousfunctions()
+	{
+		$data = ['title' => 'Anonyme Funktionen'];
+		$this->load->view('templates/header', $data);
+		$this->load->view('anonymousfunctions');
+		$this->load->view('templates/footer');
+	}
 }
