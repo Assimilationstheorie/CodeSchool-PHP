@@ -55,13 +55,3 @@
   </p>
   <p>Durch das <mark>&</mark> vor <mark>$data</mark> in dem <mark>use</mark> wird eine Referenz erzeugt und diese dann in der anonymen Funktion um den Inthalt des Parameters <mark>$fruit</mark> erweitert. Somit kann man nach dem Funktionsaufruf auf das 3 Element der Arrays zugreifen.</p>
 </div>
-
-
-<?php
-$test = function() {
-  return ['kr' => 'zzz', 'rrr', 'ooo'];
-};
-foreach($test as $key => $value) {
-  echo $value;
-}
- ?>
