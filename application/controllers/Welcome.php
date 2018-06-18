@@ -26,11 +26,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function instances()
+	public function class()
 	{
-		$data = ['title' => 'Instanzen'];
+		$data = ['title' => 'Klassen'];
 		$this->load->view('templates/header', $data);
-		$this->load->view('instances');
+		$this->load->view('classes');
 		$this->load->view('templates/footer');
 	}
 }

@@ -54,8 +54,8 @@ $route['references'] = 'welcome/references';
 $route['referenzen'] = 'welcome/references';
 $route['anonymefunktionen'] = 'welcome/anonymousfunctions';
 $route['anonymousfunctions'] = 'welcome/anonymousfunctions';
-$route['instances'] = 'welcome/instances';
-$route['instanzen'] = 'welcome/instances';
+$route['class'] = 'welcome/class';
+$route['klassen'] = 'welcome/class';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
