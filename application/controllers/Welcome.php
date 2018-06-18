@@ -25,4 +25,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('anonymousfunctions');
 		$this->load->view('templates/footer');
 	}
+
+	public function instances()
+	{
+		$data = ['title' => 'Instanzen'];
+		$this->load->view('templates/header', $data);
+		$this->load->view('instances');
+		$this->load->view('templates/footer');
+	}
 }
