@@ -36,4 +36,34 @@ Für mehr Übersicht sorgt das Schreiben in mehreren Zeilen.
   $name = "Konny";
 ?>
 ```
-Eine einfache Variable.
+Eine einfache Variable mit einem String als Wert.
+
+---
+
+```sh
+<?php
+  $name = ["Konny", "Tim", 2];
+?>
+```
+Eine Variable, die einen Array als Wert hat.
+
+---
+
+```sh
+<?php
+  $obst = "Apfel";
+  echo $obst;
+?>
+```
+So kann eine Variable ausgegeben.
+
+---
+
+```sh
+<?php
+  $obst = "Apfel";
+  $gemuese =& $obst;
+  echo $gemuese; //Ausgabe: Apfel
+?>
+```
+Die Variable $gemuese verweist nun auf den selben Inhalt wie $obst.
