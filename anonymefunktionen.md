@@ -1,4 +1,4 @@
-# Anonyme Funktionen
+# Anonyme Funktionen :tada:
 
 > Ein Mädchen hat keinen Namen...
 
@@ -47,7 +47,7 @@ So können auch Elemente aus einem Array wiedergegeben werden.
 Closures können ebenfalls Variablen aus dem Eltern-Gültigkeitsbereich erben. Jede solche Variable muss an das use-Sprachkonstrukt übergeben werden.
 
 ---
-   
+
 ```sh
 <?php
     $data = ['Apfel', 'Birne'];

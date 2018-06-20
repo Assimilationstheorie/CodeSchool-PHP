@@ -1,4 +1,4 @@
-# Referenzen
+# Referenzen :tada:
 
 > Eine Person, doch mit mehreren Namen.
 
@@ -33,4 +33,3 @@ Nun wird die Variable $dollar nicht den neuen Wert annehmen, da die Funktion fü
 Möchte man nun aber mit dem berechneten Ergebnis der Funktion weiterarbeiten, so erzeugt man eine Referenz. Bei dem Funktionsaufruf, zeigt der Parameter &$euro auf den Wert von $dollar und somit 20. In der Funktion ist es nun wichtig, dass man mit dem selben Variablennamen arbeitet!
 
 In der Funktion wird berechnet und der Variable $euro der neue Wert zugewiesen. Da die beiden Variablen nach wie vor auf den selben "Platz" zeigen, ist auch der Wert der Variable $dollar nun 40.
-
