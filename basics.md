@@ -2,6 +2,7 @@
 
 > Wir fangen bei Buch Mose an...
 
+### Einfache Ausgabe
 ```sh
 <?php
     echo "Hallo Welt?";
