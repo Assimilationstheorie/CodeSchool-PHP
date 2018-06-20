@@ -1,4 +1,4 @@
-# Anonyme Funktionen :tada:
+# :books: Anonyme Funktionen
 
 > Ein Mädchen hat keinen Namen...
 

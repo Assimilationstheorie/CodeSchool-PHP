@@ -1,4 +1,4 @@
-# Basics :tada:
+# :books: Basics
 
 > Wir fangen bei Buch Mose an...
 
