@@ -2,10 +2,10 @@
 
 > Wir fangen bei Buch Mose an...
 
-### Einfache Ausgabe
+### :four_leaf_clover: Einfache Ausgabe
 ```sh
 <?php
-    echo "Hallo Welt?";
+  echo "Hallo Welt?";
 ?>
 ```
 Gibt Hallo Welt aus. Variablen und Zahlen werden ohne "" geschrieben!
@@ -26,3 +26,14 @@ Die kurze Schreibweise.
 ?>
 ```
 Für mehr Übersicht sorgt das Schreiben in mehreren Zeilen.
+
+---
+
+### :four_leaf_clover: Variablen
+
+```sh
+<?php
+  $name = "Konny";
+?>
+```
+Eine einfache Variable.
