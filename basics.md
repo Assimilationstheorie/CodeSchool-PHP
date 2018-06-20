@@ -12,8 +12,7 @@ Gibt Hallo Welt aus. Variablen und Zahlen werden ohne "" geschrieben!
 ---
 
 ```sh
-$obst = Apfel;
-Ich habe einen <?=$obst?>.
+Ich habe einen <?="Apfel"?>
 ```
 Die kurze Schreibweise.
 
