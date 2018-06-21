@@ -52,7 +52,7 @@ Eine Variable, die einen Array als Wert hat.
 ```sh
 <?php
   $obst = "Apfel";
-  echo $obst;
+  echo $obst; // Ausgabe: Apfel
 ?>
 ```
 So kann eine Variable ausgegeben.
@@ -129,7 +129,7 @@ So wird ein assoziatives Arrays geschrieben und ausgegeben.
   "Unknown" => "The Cat"
   ];
   $people["Friend"] = "The Dog";
-  echo $people["Friend"];
+  echo $people["Friend"]; // Ausgabe: The Dog
 ?>
 ```
 Einträge in einem Array lassen sich ändern, wenn man einen Array-Key einen neuen Wert zuweist.
