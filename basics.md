@@ -98,3 +98,64 @@ Ein einfaches Array beginnt immer mit dem Schlüssel (Key) 0. Somit gibt das "ec
 ?>
 ```
 Selbstverständlich können so auch Zahlen ausgegeben werden!
+
+### :four_leaf_clover: Assoziative Arrays
+
+Bei sehr vielen Werten in einem Array, wird eine inkrementele Zuweisung von Keys zum Problem. Eine Zählung von Werten ist zwar mit einer Ausgabe von "var_dump()" trotzdem nicht notwendig, schöner ist es aber, wenn man einen bestimmten Wert ausgeben kann.
+
+```sh
+<?php
+  $tage = [
+  "Mo" => "Montag",
+  "Di" => "Dienstag",
+  "Mi" => "Mittwoch",
+  "Do" => "Donnerstag",
+  "Fr" => "Freitag",
+  "Sa" => "Samstag",
+  "So" => "Sonntag"
+  ];
+  echo $tage["Mi"]; // Ausgabe: Mittwoch
+?>
+```
+So wird ein assoziatives Arrays geschrieben und ausgegeben.
+
+---
+
+```sh
+<?php
+  $people = [
+  "Friend" => "Me",
+  "Enemy" => "You",
+  "Unknown" => "The Cat"
+  ];
+  $people["Friend"] = "The Dog";
+  echo $people["Friend"];
+?>
+```
+Einträge in einem Array lassen sich ändern, wenn man einen Array-Key einen neuen Wert zuweist.
+
+---
+
+```sh
+<?php
+  $people = [
+  "Friend" => "Me",
+  "Enemy" => "You",
+  "Unknown" => "The Cat"
+  ];
+  $people["BestFriend"] = "The Dog";
+  echo "<pre>";
+  var_dump($people);
+  echo "</pre>";
+
+  /* Ausgabe
+  array(4) {
+    ["Friend"]=> string(2) "Me"
+    ["Enemy"]=> string(3) "You"
+    ["Unknown"]=> string(7) "The Cat"
+    ["BestFriend"]=> string(7) "The Dog"
+  }
+  */
+?>
+```
+Es lassen sich auch Werte zum Array hinzufügen.
