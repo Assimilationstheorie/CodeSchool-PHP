@@ -67,3 +67,34 @@ So kann eine Variable ausgegeben.
 ?>
 ```
 Die Variable $gemuese verweist nun auf den selben Inhalt wie $obst.
+
+### :four_leaf_clover: Arrays
+
+Ein Array ist eine geordnete Liste. Eine Liste kann Zahlen (Integer) und Texte (Strings) enthalten. Tatsächlich ist ein Array eine Map. Eine Map ist ein Typ, der Werte (Values) zu Schlüsseln (Keys) zuordnet.
+
+```sh
+<?php
+  $tage = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"];
+?>
+```
+Ein Arrays mit Wochentagen. Möchte man nun auf einen Tag zugreifen, so muss der Schlüssel angesprochen werden! Jeder Wert hat inkrementel einen Schlüssel zugeordnet! Beginnend ab 0!
+
+---
+
+```sh
+<?php
+  $tage = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"];
+  echo $tage[0]; // Ausgabe: Montag
+?>
+```
+Ein einfaches Array beginnt immer mit dem Schlüssel (Key) 0. Somit gibt das "echo $tage[0];" auch Montag aus.
+
+---
+
+```sh
+<?php
+  $zahlen = [1, 2, 3, 4, 5];
+  echo $zahlen[2]; // Ausgabe: 3
+?>
+```
+Selbstverständlich können so auch Zahlen ausgegeben werden!
