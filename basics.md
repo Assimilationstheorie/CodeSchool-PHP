@@ -55,7 +55,7 @@ Eine Variable, die einen Array als Wert hat.
   echo $obst; // Ausgabe: Apfel
 ?>
 ```
-So kann eine Variable ausgegeben.
+So kann eine Variable ausgegeben werden.
 
 ---
 
@@ -101,7 +101,7 @@ Selbstverständlich können so auch Zahlen ausgegeben werden!
 
 ### :four_leaf_clover: Assoziative Arrays
 
-Bei sehr vielen Werten in einem Array, wird eine inkrementele Zuweisung von Keys zum Problem. Eine Zählung von Werten ist zwar mit einer Ausgabe von "var_dump()" trotzdem nicht notwendig, schöner ist es aber, wenn man einen bestimmten Wert ausgeben kann.
+Bei sehr vielen Werten in einem Array, wird eine inkrementele Zuweisung von Keys zum Problem. Eine Zählung von Werten ist zwar mit einer Ausgabe wie "var_dump()" möglich, schöner ist es aber wenn man einen bestimmten Wert ausgeben kann.
 
 ```sh
 <?php
@@ -132,7 +132,7 @@ So wird ein assoziatives Arrays geschrieben und ausgegeben.
   echo $people["Friend"]; // Ausgabe: The Dog
 ?>
 ```
-Einträge in einem Array lassen sich ändern, wenn man einen Array-Key einen neuen Wert zuweist.
+Einträge in einem Array lassen sich ändern, wenn man einen Array-Key einen neuen Wert (Value) zuweist.
 
 ---
 
