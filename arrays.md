@@ -2,6 +2,16 @@
 
 > Ein Korb voller Früchte...
 
+### :four_leaf_clover: Ausgabe eines Elementes
+```sh
+<?php
+  $obst = ["Apfel", "Birne", "Kirsche"];
+  echo $obst[0]; // Ausgabe: Apfel
+?>
+```
+
+---
+
 ### :four_leaf_clover: Foreach-Schleife
 ```sh
 <?php
