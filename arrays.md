@@ -15,7 +15,7 @@
 ### :four_leaf_clover: Foreach-Schleife
 ```sh
 <?php
-  $obst = ["Apfel", "Birne", "Kirsche"];
+  $obst = ["Apfel", "Birne", "Kirsche", "Zitronen"];
   foreach($obst as $frucht) {
     echo $frucht . " "; // Ausgabe: Apfel Birne Kirsche
   }
