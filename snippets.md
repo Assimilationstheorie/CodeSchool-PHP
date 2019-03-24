@@ -35,3 +35,14 @@ Gibt das Wort "Gleich! :)" aus.
 Der Punkt in der Ausgabe von $, wird in der Ausgabe von € auf ein Komma geändert!
 
 ---
+
+### :four_leaf_clover: Berechnet die Ähnlichkeit zweier Strings
+```sh
+<?php
+  $sim = similar_text('GitLab', 'GitHub', $perc);
+  echo "Ähnlichkeit: $sim ($perc %)"; //Gibt aus: Ähnlichkeit: 4 (66.666666666667 %)
+?>
+```
+Die Anzahl übereinstimmender Zeichen wird berechnet, indem die längste erste gemeinsame Teilzeichenkette gesucht wird, und dies dann rekursiv für die Prä- und Suffixe wiederholt wird. Die Längen aller gefundenen gemeinsamen Teilzeichenketten werden aufsummiert.
+
+---
