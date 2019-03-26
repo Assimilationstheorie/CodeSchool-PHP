@@ -46,3 +46,19 @@ Der Punkt in der Ausgabe von $, wird in der Ausgabe von € auf ein Komma geänd
 Die Anzahl übereinstimmender Zeichen wird berechnet, indem die längste erste gemeinsame Teilzeichenkette gesucht wird, und dies dann rekursiv für die Prä- und Suffixe wiederholt wird. Die Längen aller gefundenen gemeinsamen Teilzeichenketten werden aufsummiert.
 
 ---
+
+### :four_leaf_clover: Ersetzt alle Vorkommen des Suchstrings durch einen anderen String
+```sh
+<?php
+  $text = "Sie sollten taeglich Fruechte, Gemuese und Ballaststoffe essen.";
+  $daswirdgesucht = array("Fruechte", "Gemuese", "Ballaststoffe");
+  $damitwirdesersetzt = array("Pizza", "Bier", "Eiscreme");
+
+  $neuertext = str_replace($daswirdgesucht, $damitwirdesersetzt, $text);
+
+  echo $neuertext; // Sie sollten taeglich Pizza, Bier und Eiscreme essen.
+?>
+```
+Sucht in einem Text nach den Worten und ersetzt es durch neue.
+
+---
