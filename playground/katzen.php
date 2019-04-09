@@ -61,3 +61,5 @@ class Katzen
 
 $parship = new Katzen();
 $parship->sayHello();
+
+//Ausgabe: 1 2 kat 4 zen kat 7 8 kat zen 11 kat 13 14 katzen 16 17 kat 19 zen kat 22 23 kat zen 26 kat 28 29 katzen
