@@ -3,7 +3,7 @@ class Katzen
 {
   private CONST numbers = [
     'min' => 1,
-    'max' => 31
+    'max' => 30
   ];
 
   private CONST items = [
@@ -14,7 +14,7 @@ class Katzen
 
   public function sayHello()
   {
-    for($i=$this->giveNumbers()['min']; $i < $this->giveNumbers()['max']; $i++) {
+    for($i=$this->giveNumbers()['min']; $i < $this->giveNumbers()['max'] + 1; $i++) {
       $this->calculate($i);
     }
   }
@@ -24,19 +24,19 @@ class Katzen
     //Durch 3
     if(!is_double($i / $this->giveItems()['kat']) && $this->calculateKatzen($i) == FALSE) {
       echo array_search($this->giveItems()['kat'], $this->giveItems()) ." ";
-      return true;
+      return TRUE;
     }
 
     //Durch 5
     if(!is_double($i / $this->giveItems()['zen']) && $this->calculateKatzen($i) == FALSE) {
       echo array_search($this->giveItems()['zen'], $this->giveItems()) . " ";
-      return true;
+      return TRUE;
     }
 
     //Durch 3 und 5
     if($this->calculateKatzen($i) == TRUE) {
       echo $this->giveItems()[0] . " ";
-      return true;
+      return TRUE;
     }
     echo $i . " ";
   }
@@ -44,7 +44,7 @@ class Katzen
   private function calculateKatzen($i)
   {
     if(!is_double($i / $this->giveItems()['kat']) && !is_double($i / $this->giveItems()['zen']) ) {
-      return true;
+      return TRUE;
     }
   }
 
