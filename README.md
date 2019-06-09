@@ -24,9 +24,6 @@ cd playground
 vagrant up
 `
 
-* Wenn alles erfolgreich durchlaufen ist:
-[http://php-playground.local](http://php-playground.local)
-
 > Wenn du [ddev](https://ddev.readthedocs.io/en/stable/) kennst und liebst, dann:
 
 * Mit dem Terminal in das Verzeichnis wechseln:
@@ -38,3 +35,10 @@ cd playground-ddev
 `
 ddev start
 `
+
+***
+
+* Wenn alles erfolgreich durchlaufen ist:
+[http://php-playground.local](http://php-playground.local)
+
+* PS: DDEV-Freunde: https://php-playground.local ;)
