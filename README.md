@@ -12,22 +12,29 @@
 
 ***
 
-> Wenn du [Vagrant](https://github.com/Assimilationstheorie/VagrantByMe) hast und Lust die Beispiele auszuprobieren, dann kannst du dich im "playground"-Ordner austoben! Um das System komfortabler zu starten, existiert ein Startscript. 
+> Wenn du [Vagrant](https://github.com/Assimilationstheorie/VagrantByMe) hast und Lust die Beispiele auszuprobieren, dann kannst du dich im "playground"-Ordner austoben!
 
-* Mit dem Terminal in das Verzeichnis wechseln
+* Mit dem Terminal in das Verzeichnis wechseln:
 `
-cd CodeSchool-PHP
-`
-
-* Das Startscript starten [MacOS]
-`
-sh start.sh
+cd playground
 `
 
-* Das Startscript starten [Windows CMD]
+* Vagrant starten:
 `
-start.sh
+vagrant up
 `
 
-* Wenn alles erfolgreich durchlaufen ist: 
+* Wenn alles erfolgreich durchlaufen ist:
 [http://php-playground.local](http://php-playground.local)
+
+> Wenn du [ddev](https://ddev.readthedocs.io/en/stable/) kennst und liebst, dann:
+
+* Mit dem Terminal in das Verzeichnis wechseln:
+`
+cd playground-ddev
+`
+
+* Ddev starten:
+`
+ddev start
+`
