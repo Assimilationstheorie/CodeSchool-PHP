@@ -40,3 +40,20 @@ Mit einer Foreach-Schleife kann man sehr einfach alle Werte (Values) eines Array
 Ab PHP7 können die Arrays nun die define()-Funktion benutzen und nicht mehr "const";
 
 ---
+
+### :four_leaf_clover: Random Array + Array als Konstante
+```sh
+<?php
+  define('TIERE', [
+    'Katze',
+    'Hund',
+    'Vogel'
+  ]);
+
+  $index = array_rand(TIERE);
+  echo TIERE[$index];
+?>
+```
+Wir definieren eine Array-Konstante mit Tieren. array_rand() gibt einen "zufälligen" Key aus dem Array (also 0, 1 oder 2) und mit "TIERE[0, 1 oder 2];" geben wir ein Array-Value aus. 
+
+---
