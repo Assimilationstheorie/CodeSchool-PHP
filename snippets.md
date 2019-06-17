@@ -62,3 +62,14 @@ Die Anzahl übereinstimmender Zeichen wird berechnet, indem die längste erste g
 Sucht in einem Text nach den Worten und ersetzt es durch neue.
 
 ---
+
+### :four_leaf_clover: Ein Array von 1 bis 12
+```sh
+<?php
+  foreach(range(0, 12) as $number) {
+      echo $number; // 0123456789101112
+  }
+?>
+```
+
+---
