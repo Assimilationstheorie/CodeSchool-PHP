@@ -51,7 +51,7 @@ Ab PHP7 können die Arrays nun die define()-Funktion benutzen und nicht mehr "co
   ]);
 
   $index = array_rand(TIERE);
-  echo TIERE[$index];
+  echo TIERE[$index]; // Katze, Hund oder Vogel
 ?>
 ```
 Wir definieren eine Array-Konstante mit Tieren. array_rand() gibt einen "zufälligen" Key aus dem Array (also 0, 1 oder 2) und mit "TIERE[0, 1 oder 2];" geben wir ein Array-Value aus. 
