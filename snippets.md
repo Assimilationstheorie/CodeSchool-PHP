@@ -73,3 +73,13 @@ Sucht in einem Text nach den Worten und ersetzt es durch neue.
 ```
 
 ---
+
+### :four_leaf_clover: Die Direktive!
+```sh
+<?php
+  declare(strict_types=1);
+?>
+```
+Mit Hilfe der Direktive, die am Anfang einer Datei gesetzt werden kann, wird der Strict-Mode aktiviert, der sowohl das Type Checking beim Input als auch beim Output von Funktionen beeinflußt.
+
+---
