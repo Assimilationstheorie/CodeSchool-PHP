@@ -57,3 +57,13 @@ Ab PHP7 können die Arrays nun die define()-Funktion benutzen und nicht mehr "co
 Wir definieren eine Array-Konstante mit Tieren. array_rand() gibt einen "zufälligen" Key aus dem Array (also 0, 1 oder 2) und mit "TIERE[0, 1 oder 2];" geben wir ein Array-Value aus. 
 
 ---
+
+### :four_leaf_clover: Items in einem Array summieren
+```sh
+<?php
+  $numbers = [1, 2, 3, 4, 5];
+  echo array_sum($numbers); // 15
+?>
+``` 
+
+---
