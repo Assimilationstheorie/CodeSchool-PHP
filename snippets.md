@@ -10,9 +10,10 @@
   if (strcasecmp($obst1, $obst2) == 0) {
       echo 'Gleich! :)';
   }
+  
+  // Gibt aus: Gleich! :)
 ?>
 ```
-Gibt das Wort "Gleich! :)" aus.
 
 ---
 
@@ -51,12 +52,12 @@ Die Anzahl übereinstimmender Zeichen wird berechnet, indem die längste erste g
 ```sh
 <?php
   $text = "Sie sollten taeglich Fruechte, Gemuese und Ballaststoffe essen.";
-  $daswirdgesucht = array("Fruechte", "Gemuese", "Ballaststoffe");
-  $damitwirdesersetzt = array("Pizza", "Bier", "Eiscreme");
+  $daswirdgesucht = ["Fruechte", "Gemuese", "Ballaststoffe"];
+  $damitwirdesersetzt = ["Pizza", "Bier", "Eiscreme"];
 
   $neuertext = str_replace($daswirdgesucht, $damitwirdesersetzt, $text);
 
-  echo $neuertext; // Sie sollten taeglich Pizza, Bier und Eiscreme essen.
+  echo $neuertext; // Gibt aus: Sie sollten taeglich Pizza, Bier und Eiscreme essen.
 ?>
 ```
 Sucht in einem Text nach den Worten und ersetzt es durch neue.
@@ -70,7 +71,7 @@ Sucht in einem Text nach den Worten und ersetzt es durch neue.
   echo $data[1]; // 1
   
   foreach(range(0, 12) as $number) {
-      echo $number; // 0123456789101112
+      echo $number; // Gibt aus: 0123456789101112
   }
 ?>
 ```
@@ -95,7 +96,7 @@ $data = [
     'lastname'=>'schmitzo'
     ];
 
-echo http_build_query($data); // firstname=tom&lastname=schmitzo
+echo http_build_query($data); // Gibt aus: firstname=tom&lastname=schmitzo
 ?>
 ```
 
