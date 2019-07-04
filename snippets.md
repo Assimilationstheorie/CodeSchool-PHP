@@ -1,4 +1,4 @@
-# :milky_way: Basics
+# :milky_way: Snippets
 
 > NO WAY....
 
