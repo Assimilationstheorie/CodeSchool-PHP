@@ -86,3 +86,17 @@ Sucht in einem Text nach den Worten und ersetzt es durch neue.
 Mit Hilfe der Direktive, die am Anfang einer Datei gesetzt werden kann, wird der Strict-Mode aktiviert, der sowohl das Type Checking beim Input als auch beim Output von Funktionen beeinflußt.
 
 ---
+
+### :four_leaf_clover: Erstellung eines URL-kodierten Query-Strings
+```sh
+<?php
+$data = [
+    'firstname'=>'tom',
+    'lastname'=>'schmitzo'
+    ];
+
+echo http_build_query($data); // firstname=tom&lastname=schmitzo
+?>
+```
+
+---
