@@ -101,3 +101,35 @@ echo http_build_query($data); // Gibt aus: firstname=tom&lastname=schmitzo
 ```
 
 ---
+
+### :four_leaf_clover: Analysiert eine URL und gibt ihre Bestandteile zurück
+```sh
+<?php
+  $url = 'http://benutzername:passwort@hostname:9090/pfad?argument=wert#textanker';
+  echo "<pre>";
+  var_dump(parse_url($url));
+  echo "</pre>";
+
+  /* Gibt aus: array(8) {
+    ["scheme"]=>
+    string(4) "http"
+    ["host"]=>
+    string(8) "hostname"
+    ["port"]=>
+    int(9090)
+    ["user"]=>
+    string(12) "benutzername"
+    ["pass"]=>
+    string(8) "passwort"
+    ["path"]=>
+    string(5) "/pfad"
+    ["query"]=>
+    string(13) "argument=wert"
+    ["fragment"]=>
+    string(9) "textanker"
+  }
+  */
+?>
+```
+
+---
