@@ -68,7 +68,6 @@ Wir definieren eine Array-Konstante mit Tieren. array_rand() gibt einen "zufäll
 
 ---
 
-
 ### :four_leaf_clover: Schlüssel bei einigen Elementen anzugeben und bei anderen auszulassen:
 ```sh
 <?php
@@ -76,6 +75,28 @@ Wir definieren eine Array-Konstante mit Tieren. array_rand() gibt einen "zufäll
    "a", "b", 6 => "c", "d"
   ];
   var_dump($array); // array(4) { [0]=> string(1) "a" [1]=> string(1) "b" [6]=> string(1) "c" [7]=> string(1) "d" }
+?>
+``` 
+
+---
+
+### :four_leaf_clover: Beispiel eines Arrays mit String, Int und der Verschachtelung:
+```sh
+<?php
+  $array = [
+      "dieeins" => "dieeins",
+      2 => 2,
+      "multi" => [
+           "dimensional" => [
+               "array" => "multidimensionalarray"
+           ]
+      ]
+  ];
+
+  var_dump($array["dieeins"]); // string(7) "dieeins"
+  var_dump($array[2]); // int(2)
+  var_dump($array["multi"]["dimensional"]["array"]); // string(21) "multidimensionalarray"
+  // Komplette Ausgabe: string(7) "dieeins" int(2) string(21) "multidimensionalarray"
 ?>
 ``` 
 
