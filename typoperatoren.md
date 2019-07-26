@@ -58,3 +58,5 @@ Um zu prüfen, ob ein Objekt nicht ein Exemplar einer Klasse ist, kann der logis
 ?>
 ```
 So kann der Klassenname ermittelt werden.
+
+---
