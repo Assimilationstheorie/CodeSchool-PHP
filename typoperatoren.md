@@ -32,6 +32,18 @@ instanceof wird dazu verwendet um festzustellen, ob ein gegebenes Objekt ein Obj
   var_dump($a instanceof ParentClass); // bool(true)
 ?>
 ```
-instanceof kann auch verwendet werden, um zu bestimmen, ob ein Variable ein Exemplar einer Klasse ist, die von einer Elternklasse erbt
+instanceof kann auch verwendet werden, um zu bestimmen, ob ein Variable ein Exemplar einer Klasse ist, die von einer Elternklasse erbt.
 
+---
 
+### :four_leaf_clover: instanceof & "nicht Operator"
+```sh
+<?php
+  class MyClass { /**/ }
+
+  $a = new MyClass;
+  var_dump(!($a instanceof stdClass)); // bool(true) - Da die Variable $a KEIN Exemplar der Klasse stdClass ist.
+  var_dump(!($a instanceof MyClass)); // bool(false) - Das ist "false", weil $a die Instanz von MyClass ist.
+?>
+```
+Um zu prüfen, ob ein Objekt nicht ein Exemplar einer Klasse ist, kann der logische "nicht Operator" verwendet werden.
