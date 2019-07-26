@@ -133,3 +133,29 @@ echo http_build_query($data); // Gibt aus: firstname=tom&lastname=schmitzo
 ```
 
 ---
+
+### :four_leaf_clover: Inkrement- bzw. Dekrementoperatoren
+```sh
+<?php
+
+// Post-Inkrement
+$a = 5;
+$a++ // $a ist noch immer 5!
+echo $a; // Gibt 6 aus
+
+// Pre-Inkrement
+$a = 5;
+++$a // $a ist 6!
+echo $a; // Gibt 6 aus
+
+?>
+```
+
+++$a	Prä-Inkrement	Erhöht $a um eins, und gibt dann $a zurück.
+$a++	Post-Inkrement	Gibt $a zurück, und erhöht dann $a um eins.
+
+--$a und $a-- subtrahiert nach dem selben Prinzip.
+
+---
+
+---
