@@ -47,3 +47,14 @@ instanceof kann auch verwendet werden, um zu bestimmen, ob ein Variable ein Exem
 ?>
 ```
 Um zu prüfen, ob ein Objekt nicht ein Exemplar einer Klasse ist, kann der logische "nicht Operator" verwendet werden.
+
+# :zap: Protipp!
+```sh
+<?php
+  class EineTolleKlasse { /**/ }
+  $data = new EineTolleKlasse();
+  echo "Der Name der Klasse ist " , get_class($data);
+  // Der Name der Klasse ist EineTolleKlasse
+?>
+```
+So kann der Klassenname ermittelt werden.
