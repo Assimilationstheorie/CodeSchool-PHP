@@ -12,6 +12,8 @@ additional_fqdns: [php-playground.local]
 mariadb_version: "10.2"
 nfs_mount_enabled: false
 provider: default
+working_dir:
+  web: /var/www/html/project
 
 
 # This config.yaml was created with ddev version v1.8.0 
